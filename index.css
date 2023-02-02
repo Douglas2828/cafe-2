@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+     
+    padding: 0px;
+    margin: 0px;
+    
+}
+.card{
+    
+        height: 100px;
+        width: 405px;
+}
+.body{
+    background-color: #EDEBE9;
+}
+.card-text{
+ height: 100px;
+ width: 405px;
+ font-size: clamp( 1.75 ,1em + 3vw ,2.5em);
+}
+.card-img-top{
+  width: 100%;
+background-color: #EDEBE9;
+
+}
+
+   
+
+
+    
+
+
+.card-body{
+width: 330px ;
+height: 92px ;
+font-size: 17px;
+background-color:aliceblue
+
+
+
+}
+
+.Atend{
+    color: #2A3342;
+}
+
+
+
+.navbar-collapse{
+    font-family: Inter;
+}
+
+.d-flex{
+    font-family: poppins;
+}
+
+
+.bt{
+    margin-left: 15%;
+    border-radius: 10px;
+    width: 100%;
+    height: 38px;
+    box-sizing: border-box;
+    background:#2A3342; 
+    border: solid rgb(0, 0, 0, 0.3);
+    color: white;
+    font-family: Raleway;
+    font-size: 17px;
+    
+   
+    
+    
+    
+}
+
+.modal1{
+    margin-block-start: 90px;
+    width: 500px;
+    height: 350px;
+    background-color: #FFFFFF;
+    position:absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -15%;
+    border-radius: 10px;
+    display: none;
+    animation: animate;
+    animation-duration: 900ms;
+}
+@keyframes animate{
+
+    from{opacity: 1;}
+    from{opacity: 0;}
+}
+.fechar{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    float: right;
+    cursor: pointer;
+}
+    
+
+.btn2{
+    position: absolute;
+    border-radius: 10px;
+    width: 202px;
+    height: 48px;
+    box-sizing: border-box;
+    background:#2A3342; 
+    border: solid rgb(0, 0, 0, 0.3);
+    top: 65%;
+    left: 30%;
+    color: white;
+}
+
+.Atend{
+text-align: center;
+padding: 5%;
+
+}
+
+.Atend2{
+    text-align: center;
+    margin-top: 10%;
+
+    
+}
+.buttonhide1{
+    display: none;
+}
+.buttonhide2{
+    display: none;
+}
+.buttonhide3{
+    display: none;
+}
+.buttonhide4{
+    display: none;
+}    
+
+
+
+
+
+
+
+
+
+    
